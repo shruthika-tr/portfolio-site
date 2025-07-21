@@ -1,4 +1,3 @@
-import { MdDescription } from "react-icons/md";
 import websiteImg1 from "../assets/ecommerce-website.jpg";
 import websiteImg2 from "../assets/food-ecommerce.jpg";
 import websiteImg3 from "../assets/website-blog.jpg";
@@ -54,7 +53,12 @@ export default function Projects() {
                 <div className="project-desc">
                   <p className="text-center px-5 py-5">{project.description}</p>
                   <div className="flex justify-center">
-                    <a className="btn" target="_blank" href={project.link}>
+                    <a
+                      className="btn"
+                      target="_blank"
+                      rel="noreferrer"
+                      href={project.link}
+                    >
                       View Project
                     </a>
                   </div>
